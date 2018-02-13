@@ -4,7 +4,7 @@ Excel is an indispensable productivity tool. Users across all industries and rol
 
 ## Why create Excel apps?
 
-The Excel REST API can extend the value of your data, calculations, reporting and dashboards. You can use Microsoft Graph to allow web and mobile applications to read and modify Excel workbooks stored in OneDrive, SharePoint, or other supported storage platforms. The `Workbook` (or Excel file) resource contains all the other Excel resources through relationships. You can access a workbook through the [Drive API](../api-reference/v1.0/resources/drive.md) by identifying the location of the file in the URL. For example:
+The Excel REST API can extend the value of your data, calculations, reporting and dashboards. You can use Microsoft Graph to allow web and mobile applications to read and modify Excel workbooks stored in OneDrive, SharePoint, or other supported storage platforms.
 
 ### Perform calculations
 
