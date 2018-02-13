@@ -31,7 +31,7 @@
 ## [Open the OneNote client](concepts/open_onenote_client.md)
 ## [Error codes](concepts/onenote_error_codes.md)
 ## [Best practices](concepts/onenote_best_practices.md)
-# [Workbooks and charts (Excel)](concepts\use-microsoft-graph-to-work-with-excel.md)
+# [Workbooks and charts (Excel)](concepts\excel-content-overview.md)
 ## [Manage sessions](concepts\manage-sessions-in-excel-with-microsoft-graph.md)
 ## [Display a chart image](concepts\display-a-chart-image-in-excel-with-microsoft-graph.md)
 ## [Use workbook functions](concepts\use-functions-in-excel-with-microsoft-graph.md)
