@@ -1,8 +1,8 @@
 # Major services and features in Microsoft Graph
 
-Microsoft Graph enables you to integrate with the best of Office 365, Windows 10, and enterprise mobility and security services in Microsoft 365. You can leverage social and security intelligence to boost user productivity, creativity, and team work, and protect business resources and users' data. 
+Microsoft Graph enables you to integrate with the best of Office 365, Windows 10, and enterprise mobility and security services in Microsoft 365. Additionally, you can leverage social and security intelligence to boost user productivity, creativity, and team collaboration, and to protect business resources and users' data. 
 
-Some services in Microsoft Graph make their debut there, others have been well-known as standalone services and are now converging in Microsoft Graph. Their API sets follow a streamlined design as detailed in the [Microsoft REST API guidelines](https://github.com/Microsoft/api-guidelines), and are accessible through the single Microsoft Graph REST endpoint `https://graph.microsoft.com`. The major services and features are listed below by category.
+Some services in Microsoft Graph make their debut there, others have been well-known as standalone services and are now converging in Microsoft Graph. Their API sets follow a streamlined design as detailed in the [Microsoft REST API guidelines](https://github.com/Microsoft/api-guidelines), and are now accessible through the single Microsoft Graph REST endpoint `https://graph.microsoft.com`. The major services and features are listed below by category.
 
 <!-- Per M365 enterprise categorization on https://www.microsoft.com/en-us/microsoft-365/enterprise/home
 
@@ -58,14 +58,27 @@ Reports
 
 -->
 
+## Office productivity
+
+|Feature    |Supporting services  |Description |More information |
+|:-----------|:--------------------|:-----------|:----------------|
+| Calendar | Outlook  |  |  |
+| Files | OneDrive |  |  |
+| Mail | Outlook | A messaging communication hub in Office 365 that also lets you manage contacts, schedule meetings, find information about users in an organization, initiate online conversations, share files, and collaborate in groups. | [Outlook mail overview](../concepts/outlook-mail-concept-overview.md) |
+| Notes | OneNote | Lets users plan and organize ideas and information. | [OneNote overview](../concepts/integrate_with_onenote.md) |
+| Personal contacts | Outlook |  |  |
+| Workbooks and charts | Excel |  |  |
+
 ## Collaboration
 
 <!-- Want to update links to concept overviews as they are created over time. 
 -->
 |Feature    |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-|Groups | Azure, OneDrive, OneNote, Outlook, Planner | Enables users and other principals to share access to resources such as files, notes, conversations, events, and tasks. | [Groups API overview](../api-reference/v1.0/resources/groups-overview.md) |
-|Plans and tasks | Planner | Work management application that lets users create plans, assign tasks, track progress, chat and share files. | [Planner API overview](../api-reference/v1.0/resources/planner_overview.md) |
+|Groups | Azure, OneDrive, OneNote, Outlook, Planner | Office 365 groups for users to share conversations, files, notes, calendar, and plans. | [Groups API overview](../api-reference/v1.0/resources/groups-overview.md) |
+|Plans and tasks | Planner | Enables Office 365 groups to create plans, assign tasks, and track progress. | [Planner API overview](../api-reference/v1.0/resources/planner_overview.md) |
+| Shared site and content  | SharePoint | Web-based platform for users and Office 365 groups to share and manage content (including lists, files, and notes). | [SharePoint API overview](../api-reference/v1.0/resources/sharepoint.md) | 
+|Teamwork (preview) |  Microsoft Teams | Chat-based workspace for teams to share files, notes, calendar, and plans. |
 
 ## Education
 
@@ -80,15 +93,6 @@ Reports
 ## Identity service
 
 
-## Productivity
 
-|Feature    |Supporting services  |Description |More information |
-|:-----------|:--------------------|:-----------|:----------------|
-| Calendar | Outlook  |  |  |
-| Documents and files | OneDrive |  |  |
-| Mail | Outlook | A messaging communication hub in Office 365 that also lets you manage contacts, schedule meetings, find information about users in an organization, initiate online conversations, share files, and collaborate in groups. | [Outlook mail overview](../concepts/outlook-mail-concept-overview.md) |
-| Notes | OneNote | Lets users plan and organize ideas and information. | [OneNote overview](../concepts/integrate_with_onenote.md) |
-| Personal contacts | Outlook |  |  |
-| Workbooks and charts | Excel |  |  |
 
 
