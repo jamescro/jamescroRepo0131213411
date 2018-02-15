@@ -1,8 +1,8 @@
 # [Overview](concepts/overview.md)
-## [Major services](concepts/overview-major-services.md)
-# [Featured scenarios](concepts/featured_scenarios.md)
-## [Find meeting times](concepts/findmeetingtimes_example.md)
-## [Get information about relevant people](concepts/people_example.md)
+## [Services in Microsoft Graph](concepts/overview-major-services.md)
+## Users you can reach
+## [National cloud deployments](concepts/deployments.md)
+## [Hybrid deployments (preview)](concepts/hybrid_rest_support.md)
 # [Build your first app](concepts/get-started.md)
 ## [Android](concepts/android.md)
 ## [Angular](concepts/angular.md)
@@ -19,9 +19,6 @@
 ## [Xamarin](concepts/xamarin.md)
 
 # Concepts
-# Deployment
-## [National cloud deployments](concepts/deployments.md)
-## [Hybrid deployments (preview)](concepts/hybrid_rest_support.md)
 # [Mail (Outlook)](concepts\outlook-mail-concept-overview.md)
 ## [Create and send messages](concepts\outlook-create-send-messages.md)
 ## [Organize messages](concepts\outlook-organize-messages.md)
