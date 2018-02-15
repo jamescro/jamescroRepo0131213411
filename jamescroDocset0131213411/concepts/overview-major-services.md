@@ -62,12 +62,12 @@ Reports
 
 |Feature    |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-| Calendar | Outlook  |  |  |
-| Files | OneDrive |  |  |
-| Mail | Outlook | A messaging communication hub in Office 365 that also lets you manage contacts, schedule meetings, find information about users in an organization, initiate online conversations, share files, and collaborate in groups. | [Outlook mail overview](../concepts/outlook-mail-concept-overview.md) |
+| Calendar | Outlook  | Calendaring client for users to set up appointments and meetings on the web, mobile and desktop devices. Calendar is part of the Outlook messaging communication hub in Office 365 that also lets users manage emails and contacts. |  |
+| Files | OneDrive | Manage and share user files on OneDrive, OneDrive for Business, and SharePoint document libraries. | [Files API overview](../api-reference/v1.0/resources/onedrive.md) |
+| Mail | Outlook | Email client for users to communicate, organize messages, and manage priorities in their workflows, on the web, mobile and desktop devices. Mail is part of the Outlook messaging communication hub in Office 365 that also lets users manage contacts and schedule meetings. | [Outlook mail overview](../concepts/outlook-mail-concept-overview.md) |
 | Notes | OneNote | Lets users plan and organize ideas and information. | [OneNote overview](../concepts/integrate_with_onenote.md) |
-| Personal contacts | Outlook |  |  |
-| Workbooks and charts | Excel |  |  |
+| Personal contacts | Outlook | Contacts manager on the web, mobile and desktop devices. It is part of the Outlook messaging communication hub in Office 365 that also lets users manage emails and schedule meetings.  |  |
+| Workbooks and charts | Excel | Spreadsheet client that lets users do complex calculations, track, analyze, and visualize data, and do professional reporting. | [Excel workbooks and charts overview](../concepts/excel-content-overview.md) |
 
 ## Collaboration
 
@@ -77,8 +77,8 @@ Reports
 |:-----------|:--------------------|:-----------|:----------------|
 |Groups | Azure, OneDrive, OneNote, Outlook, Planner | Office 365 groups for users to share conversations, files, notes, calendar, and plans. | [Groups API overview](../api-reference/v1.0/resources/groups-overview.md) |
 |Plans and tasks | Planner | Enables Office 365 groups to create plans, assign tasks, and track progress. | [Planner API overview](../api-reference/v1.0/resources/planner_overview.md) |
-| Shared site and content  | SharePoint | Web-based platform for users and Office 365 groups to share and manage content (including lists, files, and notes). | [SharePoint API overview](../api-reference/v1.0/resources/sharepoint.md) | 
-|Teamwork (preview) |  Microsoft Teams | Chat-based workspace for teams to share files, notes, calendar, and plans. |
+| Shared sites and content  | SharePoint | Web-based platform for users and Office 365 groups to share and manage content (including lists, files, and notes). | [SharePoint API overview](../api-reference/v1.0/resources/sharepoint.md) | 
+|Teamwork (preview) |  Microsoft Teams | Chat-based workspace for teams to share files, notes, calendar, and plans. | [Microsoft Teams API overview](../api-reference/beta/resources/teams_api_overview.md) |
 
 ## Education
 
