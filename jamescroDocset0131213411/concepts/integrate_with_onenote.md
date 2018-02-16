@@ -1,8 +1,8 @@
-# Use Microsoft Graph to integrate with OneNote
+# OneNote overview
 
 By integrating your apps with OneNote, you can create empowering experiences across multiple platforms that reach millions of users worldwide. You can use Microsoft Graph to access notebooks, sections, and pages in OneNote to create solutions that help your users plan and organize ideas and information.
 
-## Why create OneNote apps?
+## Why create an app that targets OneNote?
 
 You can use Microsoft Graph to create and manage notes, lists, pictures, files, and more in OneNote notebooks.
 
