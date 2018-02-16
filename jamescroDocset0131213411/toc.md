@@ -3,20 +3,6 @@
 ## Users you can reach
 ## [National cloud deployments](concepts/deployments.md)
 ## [Hybrid deployments (preview)](concepts/hybrid_rest_support.md)
-# [Build your first app](concepts/get-started.md)
-## [Android](concepts/android.md)
-## [Angular](concepts/angular.md)
-## [ASP.NET MVC](concepts/aspnetmvc.md)
-## [iOS (Objective-C)](concepts/ios_objectivec.md)
-## [iOS (Swift)](concepts/ios_swift.md)
-## [Node.js](concepts/nodejs.md)
-## [PHP](concepts/php.md)
-## [Python](concepts/python.md)
-## [Ruby](concepts/ruby.md)
-## [REST](concepts/rest.md)
-## [UWP](concepts/uwp.md)
-## [Visual Studio Connected Services](concepts/office_365_connected_services.md)
-## [Xamarin](concepts/xamarin.md)
 
 # Concepts
 # [Mail (Outlook)](concepts\outlook-mail-concept-overview.md)
