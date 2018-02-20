@@ -1,8 +1,8 @@
 # [Overview](concepts/overview.md)
 ## [Services in Microsoft Graph](concepts/overview-major-services.md)
 ## Users you can reach
-## [National cloud deployments](concepts/deployments.md)
-## [Hybrid deployments (preview)](concepts/hybrid_rest_support.md)
+### [National cloud deployments](concepts/deployments.md)
+### [Hybrid deployments (preview)](concepts/hybrid_rest_support.md)
 # [Build your first app](concepts/get-started.md)
 ## [Android](concepts/android.md)
 ## [Angular](concepts/angular.md)
@@ -18,7 +18,7 @@
 ## [Visual Studio Connected Services](concepts/office_365_connected_services.md)
 ## [Xamarin](concepts/xamarin.md)
 
-# Concepts
+# Learn
 # [Mail (Outlook)](concepts\outlook-mail-concept-overview.md)
 ## [Create and send messages](concepts\outlook-create-send-messages.md)
 ## [Organize messages](concepts\outlook-organize-messages.md)
@@ -36,20 +36,14 @@
 ## [Write data to a workbook](concepts\write-to-excel-workbook-with-microsoft-graph.md)
 
 # Develop
+## Capabilities
 ## [Get auth tokens](concepts/auth_overview.md)
 ### [Register your app](concepts/auth_register_app_v2.md)
 ### [Get access on behalf of a user](concepts/auth_v2_user.md)
 ### [Get access without a user](concepts/auth_v2_service.md)
 ### [Permissions](concepts/permissions_reference.md)
 ### [Manage app access (CSPs)](concepts/auth_cloudsolutionprovider.md)
-## [Use the API](concepts/use_the_api.md)
-### [Traverse the graph](concepts/traverse_the_graph.md)
-### [Paging](concepts/paging.md)
-### [Use query parameters](concepts/query_parameters.md)
-### [Batch requests](concepts/json_batching.md)
-### [Throttling](concepts/throttling.md)
-### [Versioning and support](concepts/versioning_and_support.md)
-### [Errors](concepts/errors.md)
+## [Webhooks](api-reference/v1.0/resources/webhooks.md)
 ## [Track changes](concepts/delta_query_overview.md)
 ### [Get changes to events (example)](concepts/delta_query_events.md)
 ### [Get changes to groups (example)](concepts/delta_query_groups.md)
@@ -58,6 +52,15 @@
 ## [Add custom data](concepts/extensibility_overview.md)
 ### [Use open extensions (example)](concepts/extensibility_open_users.md)
 ### [Use schema extensions (example)](concepts/extensibility_schema_groups.md)
+## [Use the API](concepts/use_the_api.md)
+### [Traverse the graph](concepts/traverse_the_graph.md)
+### [Batch requests](concepts/json_batching.md)
+### [Paging](concepts/paging.md)
+### [Use query parameters](concepts/query_parameters.md)
+### [Throttling](concepts/throttling.md)
+### [Versioning and support](concepts/versioning_and_support.md)
+### [Errors](concepts/errors.md)
+## Resources
 ## [Known issues](concepts/known_issues.md)
 ## [Changelog](concepts/changelog.md)
 

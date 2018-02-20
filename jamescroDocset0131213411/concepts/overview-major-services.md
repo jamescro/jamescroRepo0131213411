@@ -58,7 +58,7 @@ Reports
 
 -->
 
-## Office productivity
+## Productivity
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
@@ -80,11 +80,23 @@ Reports
 | Shared sites and content  | SharePoint | Web-based platform for users and Office 365 groups to share and manage content (including lists, files, and notes). | [SharePoint API overview](../api-reference/v1.0/resources/sharepoint.md) | 
 |Teamwork (preview) |  Microsoft Teams | Chat-based workspace for teams to share files, notes, calendar, and plans. | [Microsoft Teams API overview](../api-reference/beta/resources/teams_api_overview.md) |
 
-## Education
+
+## Identity and access management
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-|Schools, enrollments, and assignments (preview) | Azure AD, Education | Empower educators to unlock creativity, promote teamwork, and provide a simple and safe experience in a single, affordable solution built for education. | [Education API overview](../api-reference/beta/resources/education-overview.md)
+| Identity provider (preview)  | Azure AD | Enables B2C tenants to configure identity providers, such as Microsoft, Google, and Facebook, so that users can sign in with a social account or link an existing account to a social account. | [identityProvider resource type](../api-reference/beta/resources/identityprovider.md)  |
+| Invitation manager | Azure AD | Creates an invitation to an external user to join an organization. | [invitation resource type](../api-reference/v1.0/resources/invitation.md) |
+| Privileged identity management (preview) | Azure AD | Manages, controls, and monitors access within an organization.  | [Azure AD privileged identity management](../api-reference/beta/resources/privilegedidentitymanagement_root.md)  |
+| Identity provisioning and synchronization (preview) | Azure AD | Automates the creation, maintenance, and removal of identities in cloud (software as a service, or SaaS) applications such as Dropbox and Salesforce. | [Azure AD synchronization API overview](../api-reference/beta/resources/synchronization-overview.md) |
+
+
+## Identity protection
+
+|Feature     |Supporting services  |Description |More information |
+|:-----------|:--------------------|:-----------|:----------------|
+| Identity risk detection | Azure AD | Get information about risk events occuring in user accounts detected by adaptive machine learning. | [Azure AD identity protection](../api-reference/beta/resources/identityprotection_root.md)  |
+
 
 ## Enterprise mobile data, device, and app management
 
@@ -93,42 +105,32 @@ Reports
 |Mobile device management | Intune | Provides security tools for organizations and their employees to access company data irrespective of the data location (cloud, on-premises, or on device), device, or application type (store, web, or LOB apps). | [Intune API overview](../api-reference/v1.0/resources/intune_graph_overview.md) |
 
 
-## Identity and access management
+## Office 365 usage reporting
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-| Identity provider (preview)  | Azure AD | Enables B2C tenants to configure identity providers (such as Microsoft, Google, Facebook) so that users can sign in with a social account or link an existing account to a social account. | [identityProvider resource type](../api-reference/beta/resources/identityprovider.md)  |
-| Invitation manager | Azure AD | Creates an invitation to an external user to join an organization. | [invitation resource type](../api-reference/v1.0/resources/invitation.md)  |
-| Privileged identity management (preview) | Azure AD | Manage, control, and monitor access within an organization.  | [Azure AD privileged identity management](../api-reference/beta/resources/privilegedidentitymanagement_root.md)  |
+| Office 365 service usage reports | Azure AD, OneDrive, Outlook, SharePoint, Skype for Business, Yammer | Gets activity and usage information of a specific Office 365 service. | [Office 365 usage reports API overview](../api-reference/v1.0/resources/report.md) |
 
-## Security
 
-|Feature     |Supporting services  |Description |More information |
-|:-----------|:--------------------|:-----------|:----------------|
-| Identity protection | Azure AD |  |  |
-| Risk detection | Azure AD | Intelligent threat detection |  |
-
-- Intelligent threat detection 
-AAD risk detection (https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/identityriskevent)
-(https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-risk-events)
-
-## Cross-device experiences
+## Education
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-| Project Rome (preview) |  |  |  |
+|Schools, enrolments, and assignments (preview) | Azure AD, Education | Empowers educators to unlock creativity, promote teamwork, and provide a simple and safe experience in a single, affordable solution built for education. | [Education API overview](../api-reference/beta/resources/education-overview.md)
 
 
 ## Social intelligence and analytics
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-| Insights |  |  |  |
-| People |  |  |  |
+| Insights (preview) | Delve, OneDrive, Outlook, SharePoint | Uses advanced analytics and machine learning techniques to get documents trending around, viewed, modified, or shared by a user.  | [insights resource type](../api-reference/beta/resources/insights.md)  |
+| People | OneDrive, Outlook, SharePoint | Gets information about persons as ordered by their relevance to a user, determined by the user's communication and collaboration patterns, and business relationships.  | [person resource type](../api-reference/beta/resources/person.md) |
 
-## Reporting
+
+## Cross-device experiences
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-| Office 365 service usage reports |  |  |  |
+| Project Rome (preview) | Windows | Enables app experiences that transcend a single device, and instead move with the user from device to device regardless of its type and platform. | [Project Rome API overview](../api-reference/beta/resources/project_rome_overview.md) |
+
 
