@@ -3,7 +3,7 @@
 Outlook is a messaging communication hub in Office 365. It also lets you manage contacts, schedule meetings, find information about users in an organization, 
 initiate online conversations, share files, and collaborate in groups.
 
-## Why create an app that integrates with Outlook mail?
+## Why integrate with Outlook mail?
 
 ### Integrate with rich features and reach hundreds of millions of customers
 

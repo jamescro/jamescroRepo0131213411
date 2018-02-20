@@ -60,7 +60,7 @@ Reports
 
 ## Office productivity
 
-|Feature    |Supporting services  |Description |More information |
+|Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
 | Calendar | Outlook  | Calendaring client for users to set up appointments and meetings on the web, mobile and desktop devices. Calendar is part of the Outlook messaging communication hub in Office 365 that also lets users manage emails and contacts. |  |
 | Files | OneDrive | Manage and share user files on OneDrive, OneDrive for Business, and SharePoint document libraries. | [Files API overview](../api-reference/v1.0/resources/onedrive.md) |
@@ -73,26 +73,62 @@ Reports
 
 <!-- Want to update links to concept overviews as they are created over time. 
 -->
-|Feature    |Supporting services  |Description |More information |
+|Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-|Groups | Azure, OneDrive, OneNote, Outlook, Planner | Office 365 groups for users to share conversations, files, notes, calendar, and plans. | [Groups API overview](../api-reference/v1.0/resources/groups-overview.md) |
+|Groups | Azure AD, OneDrive, OneNote, Outlook, Planner | Office 365 groups for users to share conversations, files, notes, calendar, and plans. | [Groups API overview](../api-reference/v1.0/resources/groups-overview.md) |
 |Plans and tasks | Planner | Enables Office 365 groups to create plans, assign tasks, and track progress. | [Planner API overview](../api-reference/v1.0/resources/planner_overview.md) |
 | Shared sites and content  | SharePoint | Web-based platform for users and Office 365 groups to share and manage content (including lists, files, and notes). | [SharePoint API overview](../api-reference/v1.0/resources/sharepoint.md) | 
 |Teamwork (preview) |  Microsoft Teams | Chat-based workspace for teams to share files, notes, calendar, and plans. | [Microsoft Teams API overview](../api-reference/beta/resources/teams_api_overview.md) |
 
 ## Education
 
-
-## Enterprise mobility
-
-|Feature    |Supporting services  |Description |More information |
+|Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-|Mobile device management | Intune | Lets organizations provide their employees access to company resources, data, and applications, while helping to protect their corporate information. | [Intune API overview](../api-reference/v1.0/resources/intune_graph_overview.md) |
+|Schools, enrollments, and assignments (preview) | Azure AD, Education | Empower educators to unlock creativity, promote teamwork, and provide a simple and safe experience in a single, affordable solution built for education. | [Education API overview](../api-reference/beta/resources/education-overview.md)
+
+## Enterprise mobile data, device, and app management
+
+|Feature     |Supporting services  |Description |More information |
+|:-----------|:--------------------|:-----------|:----------------|
+|Mobile device management | Intune | Provides security tools for organizations and their employees to access company data irrespective of the data location (cloud, on-premises, or on device), device, or application type (store, web, or LOB apps). | [Intune API overview](../api-reference/v1.0/resources/intune_graph_overview.md) |
 
 
-## Identity service
+## Identity and access management
+
+|Feature     |Supporting services  |Description |More information |
+|:-----------|:--------------------|:-----------|:----------------|
+| Identity provider (preview)  | Azure AD | Enables B2C tenants to configure identity providers (such as Microsoft, Google, Facebook) so that users can sign in with a social account or link an existing account to a social account. | [identityProvider resource type](../api-reference/beta/resources/identityprovider.md)  |
+| Invitation manager | Azure AD | Creates an invitation to an external user to join an organization. | [invitation resource type](../api-reference/v1.0/resources/invitation.md)  |
+| Privileged identity management (preview) | Azure AD | Manage, control, and monitor access within an organization.  | [Azure AD privileged identity management](../api-reference/beta/resources/privilegedidentitymanagement_root.md)  |
+
+## Security
+
+|Feature     |Supporting services  |Description |More information |
+|:-----------|:--------------------|:-----------|:----------------|
+| Identity protection | Azure AD |  |  |
+| Risk detection | Azure AD | Intelligent threat detection |  |
+
+- Intelligent threat detection 
+AAD risk detection (https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/identityriskevent)
+(https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-risk-events)
+
+## Cross-device experiences
+
+|Feature     |Supporting services  |Description |More information |
+|:-----------|:--------------------|:-----------|:----------------|
+| Project Rome (preview) |  |  |  |
 
 
+## Social intelligence and analytics
 
+|Feature     |Supporting services  |Description |More information |
+|:-----------|:--------------------|:-----------|:----------------|
+| Insights |  |  |  |
+| People |  |  |  |
 
+## Reporting
+
+|Feature     |Supporting services  |Description |More information |
+|:-----------|:--------------------|:-----------|:----------------|
+| Office 365 service usage reports |  |  |  |
 
