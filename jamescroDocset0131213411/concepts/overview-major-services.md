@@ -2,7 +2,7 @@
 
 Microsoft Graph enables you to integrate with the best of Office 365, Windows 10, and enterprise mobility and security services in Microsoft 365. Additionally, you can leverage social and security intelligence to boost user productivity, creativity, and team collaboration, and to protect business resources and users' data. 
 
-Some services in Microsoft Graph make their debut there, others have been well-known as standalone services and are now converging in Microsoft Graph. Their API sets follow a streamlined design as detailed in the [Microsoft REST API guidelines](https://github.com/Microsoft/api-guidelines), and are now accessible through the single Microsoft Graph REST endpoint `https://graph.microsoft.com`. The major services and features are listed below by category.
+Some services in Microsoft Graph make their debut there, others have been well-known as standalone services and are now converging in Microsoft Graph. Their API sets follow a streamlined design as detailed in the [Microsoft REST API guidelines](https://github.com/Microsoft/api-guidelines), and are now accessible through the single Microsoft Graph REST endpoint `https://graph.microsoft.com`. The major services and features are listed below by category. 
 
 <!-- Per M365 enterprise categorization on https://www.microsoft.com/en-us/microsoft-365/enterprise/home
 
@@ -85,17 +85,16 @@ Reports
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-| Identity provider (preview)  | Azure AD | Enables B2C tenants to configure identity providers, such as Microsoft, Google, and Facebook, so that users can sign in with a social account or link an existing account to a social account. | [identityProvider resource type](../api-reference/beta/resources/identityprovider.md)  |
+| Basic identity management | Azure AD | Manages key directory resources such as users, groups, administrative units, applications, and devices. | [Azure Active Directory API overview](../api-reference/beta/resources/azure_ad_overview.md)  |
 | Invitation manager | Azure AD | Creates an invitation to an external user to join an organization. | [invitation resource type](../api-reference/v1.0/resources/invitation.md) |
 | Privileged identity management (preview) | Azure AD | Manages, controls, and monitors access within an organization.  | [Azure AD privileged identity management](../api-reference/beta/resources/privilegedidentitymanagement_root.md)  |
-| Identity provisioning and synchronization (preview) | Azure AD | Automates the creation, maintenance, and removal of identities in cloud (software as a service, or SaaS) applications such as Dropbox and Salesforce. | [Azure AD synchronization API overview](../api-reference/beta/resources/synchronization-overview.md) |
 
 
-## Identity protection
+## Security intelligence
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-| Identity risk detection | Azure AD | Get information about risk events occuring in user accounts detected by adaptive machine learning. | [Azure AD identity protection](../api-reference/beta/resources/identityprotection_root.md)  |
+| Identity risk detection | Azure AD | Get information about risk events in user accounts detected by adaptive machine learning. | [Azure AD identity protection](../api-reference/beta/resources/identityprotection_root.md)  |
 
 
 ## Enterprise mobile data, device, and app management
@@ -105,11 +104,11 @@ Reports
 |Mobile device management | Intune | Provides security tools for organizations and their employees to access company data irrespective of the data location (cloud, on-premises, or on device), device, or application type (store, web, or LOB apps). | [Intune API overview](../api-reference/v1.0/resources/intune_graph_overview.md) |
 
 
-## Office 365 usage reporting
+## Usage reports and audit logs
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-| Office 365 service usage reports | Azure AD, OneDrive, Outlook, SharePoint, Skype for Business, Yammer | Gets activity and usage information of a specific Office 365 service. | [Office 365 usage reports API overview](../api-reference/v1.0/resources/report.md) |
+| Reports | Azure AD, OneDrive, Outlook, SharePoint, and more | Gets activity and usage information of a supported service. | [Service usage reports overview](../api-reference/v1.0/resources/report.md) |
 
 
 ## Education
@@ -134,3 +133,12 @@ Reports
 | Project Rome (preview) | Windows | Enables app experiences that transcend a single device, and instead move with the user from device to device regardless of its type and platform. | [Project Rome API overview](../api-reference/beta/resources/project_rome_overview.md) |
 
 
+## Next steps
+
+<!-- Need to update the destination page titles and URLs as Matt's v-team finalize on the examples and featured scenarios content 
+-->
+
+1. See examples of creative solutions built on top of services in Microsoft Graph that solve real customer problems.
+2. Look under **Learn** in the table of contents to read about services and features that _you_ can leverage in your scenarios.
+3. Try a sample request in the [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
+4. Use the [quick start](https://developer.microsoft.com/graph/quick-start) to set up a ready-to-run sample app.
