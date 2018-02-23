@@ -67,6 +67,7 @@ Reports
 | Mail | Outlook | Email client for users to communicate, organize messages, and manage priorities in their workflows, on the web, mobile and desktop devices. Mail is part of the Outlook messaging communication hub in Office 365 that also lets users manage contacts and schedule meetings. | [Outlook mail overview](../concepts/outlook-mail-concept-overview.md) |
 | Notes | OneNote | Lets users plan and organize ideas and information. | [OneNote overview](../concepts/integrate_with_onenote.md) |
 | Personal contacts | Outlook | Contacts manager on the web, mobile and desktop devices. It is part of the Outlook messaging communication hub in Office 365 that also lets users manage emails and schedule meetings.  |  |
+| To-do tasks (preview) | Outlook | Tracks the start, due, and actual completion dates of to-do work items, and their recurrence, reminders, and status. Available on the web, mobile and desktop devices. It is part of the Outlook messaging communication hub in Office 365 that also lets users manage emails and contacts, and schedule meetings. |  |
 | Workbooks and charts | Excel | Spreadsheet client that lets users do complex calculations, track, analyze, and visualize data, and do professional reporting. | [Excel workbooks and charts overview](../concepts/excel-content-overview.md) |
 
 ## Collaboration
@@ -85,7 +86,7 @@ Reports
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-| Basic identity management | Azure AD | Manages key directory resources such as users, groups, administrative units, applications, and devices. | [Azure Active Directory API overview](../api-reference/beta/resources/azure_ad_overview.md)  |
+| Users and identity management | Azure AD | Manages key directory resources such as users, groups, administrative units, applications, and devices. | [Azure Active Directory API overview](../api-reference/beta/resources/azure_ad_overview.md)  |
 | Invitation manager | Azure AD | Creates an invitation to an external user to join an organization. | [invitation resource type](../api-reference/v1.0/resources/invitation.md) |
 | Privileged identity management (preview) | Azure AD | Manages, controls, and monitors access within an organization.  | [Azure AD privileged identity management](../api-reference/beta/resources/privilegedidentitymanagement_root.md)  |
 
@@ -97,11 +98,11 @@ Reports
 | Identity risk detection | Azure AD | Get information about risk events in user accounts detected by adaptive machine learning. | [Azure AD identity protection](../api-reference/beta/resources/identityprotection_root.md)  |
 
 
-## Enterprise mobile data, device, and app management
+## Enterprise mobililty management
 
 |Feature     |Supporting services  |Description |More information |
 |:-----------|:--------------------|:-----------|:----------------|
-|Mobile device management | Intune | Provides security tools for organizations and their employees to access company data irrespective of the data location (cloud, on-premises, or on device), device, or application type (store, web, or LOB apps). | [Intune API overview](../api-reference/v1.0/resources/intune_graph_overview.md) |
+|Enterprise mobility management | Intune | Provides security tools for organizations and their employees to access company data irrespective of the data location (cloud, on-premises, or on device), device, or application type (store, web, or LOB apps). | [Intune API overview](../api-reference/v1.0/resources/intune_graph_overview.md) |
 
 
 ## Usage reports and audit logs
