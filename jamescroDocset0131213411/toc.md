@@ -18,7 +18,7 @@
 ## [Visual Studio Connected Services](concepts/office_365_connected_services.md)
 ## [Xamarin](concepts/xamarin.md)
 
-# Learn <node expanded by default>
+# Learn 
 # [Mail (Outlook)](concepts\outlook-mail-concept-overview.md)
 ## [Create and send messages](concepts\outlook-create-send-messages.md)
 ## [Organize messages](concepts\outlook-organize-messages.md)
@@ -35,8 +35,7 @@
 ## [Update a range format](concepts\update-range-format-in-excel-with-microsoft-graph.md)
 ## [Write data to a workbook](concepts\write-to-excel-workbook-with-microsoft-graph.md)
 
-# Develop <node collapsed by default>
-## Capabilities <label always expanded>
+# Develop 
 ## [Get auth tokens](concepts/auth_overview.md)
 ### [Register your app](concepts/auth_register_app_v2.md)
 ### [Get access on behalf of a user](concepts/auth_v2_user.md)
@@ -57,7 +56,7 @@
 ## [Batch requests](concepts/json_batching.md)
 ## [Throttling](concepts/throttling.md)
 
-## Resources <label always expanded>
+# Resources 
 ## [Versioning and support](concepts/versioning_and_support.md)
 ## [Changelog](concepts/changelog.md)
 ## [Known issues](concepts/known_issues.md)
