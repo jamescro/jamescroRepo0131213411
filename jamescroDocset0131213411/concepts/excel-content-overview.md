@@ -22,10 +22,12 @@ Excel is also a great tool to store and track data. If your information is store
 
 ### Using the API
 You can use Microsoft Graph to allow web and mobile applications to read and modify Excel workbooks stored in OneDrive, SharePoint, or other supported storage platforms. The `Workbook` (or Excel file) resource contains all the other Excel resources through relationships. You can access a workbook through the Drive API by identifying the location of the file in the URL. For example:
+
 `https://graph.microsoft.com/{version}/me/drive/items/{id}/workbook/`
+
 `https://graph.microsoft.com/{version}/me/drive/root:/{item-path}:/workbook/ `
-You can access a set of Excel objects (such as Table, Range, or Chart) by using standard REST APIs to perform create, read, update, and delete (CRUD) operations on the workbook. For example, `GET https://graph.microsoft.com/{version}/me/drive/items/{id}/workbook/worksheets`
-returns a collection of worksheet objects that are part of the workbook. 
+
+You can access a set of Excel objects (such as Table, Range, or Chart) by using standard REST APIs to perform create, read, update, and delete (CRUD) operations on the workbook.
 
 ## Topics in this section
 
